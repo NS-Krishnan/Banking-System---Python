@@ -1,0 +1,31 @@
+class Person:
+
+    def init(self, fname, lname, address):
+        self.fname = fname
+        self.lname = lname
+        self.address = address
+    
+    # Method to update the first name
+    def update_first_name(self, fname):
+        self.fname = fname
+    
+    # Method to update the last name
+    def update_last_name(self, lname):
+        self.lname = lname
+                
+    # Method to get the first name
+    def get_first_name(self):
+        return self.fname
+    
+    # Method to get the last name
+    def get_last_name(self):
+        return self.lname
+        
+    # Method to update the address
+    def update_address(self, addr1, addr2, addr3, addr4):
+        self.address = [addr1, addr2, addr3, addr4]
+        print("Address updated successfully!")
+    
+    # Method to get the address
+    def get_address(self):
+        return self.address
